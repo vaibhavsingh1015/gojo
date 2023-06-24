@@ -1,0 +1,105 @@
+body {
+    background: url(/Gojo2.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+
+.btn:hover {
+    background-color: rgb(115 177 233);
+    border-color: rgb(115 177 233);
+}
+
+.btn-outline-success {
+    --bs-btn-color: rgb(115 177 233);
+    --bs-btn-border-color: rgb(115 177 233);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(115 177 233);
+    --bs-btn-hover-border-color: rgb(115 177 233);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(115 177 233);
+    --bs-btn-active-border-color: rgb(115 177 233);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(115 177 233);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(115 177 233);
+    --bs-gradient: none;
+}
+
+.container {
+    border: 4px solid white;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    flex-direction: column;
+
+}
+
+
+.text {
+    color: aliceblue;
+    font-size: 100px;
+    padding-top: 50px;
+    font-weight: 700;
+    text-shadow: 5px 5px 3px black;
+}
+
+@media screen and (max-device-width:1000px),
+screen and (max-width:1206px) {
+    .text {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-device-width:800px),
+screen and (max-width:1000px) {
+    .text {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-device-width:700px),
+screen and (max-width:800px) {
+    .text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-device-width:400px),
+screen and (max-width:700px) {
+    .text {
+        font-size: 35px;
+    }
+}
+
+.text:hover {
+    transition: 1;
+    transform: 5px;
+}
+
+.fbutton {
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(115 177 233);
+    width: 110px;
+    border: 3px solid rgb(115 177 233);
+
+
+}
+
+.fbutton:hover {
+    background-color: rgb(115 177 233);
+    color: rgb(252, 255, 255);
+    width: 127px;
+    cursor: pointer;
+    height: 40px;
+}
